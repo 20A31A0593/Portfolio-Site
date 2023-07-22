@@ -9,13 +9,13 @@ body{
     color: #fff;
     padding-left: 20px;
 }
-.zoom:hover{
-	transform: scale(1.1);
+.bannerBgImage .zoom:hover{
+	transform: scale(1.06);
         transition: all ease 500ms;
 }
 
-.zoom2:hover{
-	transform: scale(1.06);
+.nav-item zoom:hover{
+	transform: scale(1.1);
         transition: all ease 500ms;
 }
 .card-img a:hover{
