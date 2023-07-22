@@ -1,0 +1,166 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+  @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+  @import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+body{
+    font-family: 'Lugrasimo', cursive;
+}
+#nav{
+    color: #fff;
+    padding-left: 20px;
+}
+.card-img a:hover{
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+
+.bannerBgImage{
+    height: 100vh;
+    background: url(/Images/breno-machado-in9-n0JwgZ0-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText{
+    
+    position: absolute;
+    color: #fff;
+    bottom: 8%;
+    font-family: 'Lugrasimo', cursive;
+}
+.bannerText p{
+    font-size: 50px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.bannerText h1{
+    font-size: 190px;
+    line-height: 160px;
+    margin-left: -10px;
+    padding-left: 20px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(/Images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+.bannerText h3{
+    font-size: 40px;
+    font-weight: 500;
+    padding-left: 20px;
+
+}
+.bannerText .col-md-4{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+#hello{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px #fff;
+    border-style:inset;
+    border-radius: 5px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+#hello span{
+    font-size: 30px;
+    line-height: 15px;
+    margin-left: 5px;
+}
+
+/*.bIcon{ 
+   width: 100px; 
+   text-align:center; 
+   font-size: 40px; 
+}*/
+
+
+
+#footer a, a:hover {
+	text-decoration: none;
+}
+
+hr{
+    height: 10px;
+    size: 10px;
+
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li{
+	margin: 0;
+	padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+	width: 35px;
+    height: 35px;
+	color: #000;
+	background-color: #fff;
+    /*border: 1px solid #000;*/
+
+	padding-top: 12px;
+	border-radius: 22px;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	-o-border-radius: 20px;
+	transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+}
+
+.socialbtns .fa:hover {
+    color: #fff;
+    background-color: #000;
+    /*border: 1px solid #000;*/
+	transform: scale(1.2,1.2);
+	-moz-transform: scale(1.2,1.2);
+	-webkit-transform: scale(1.2,1.2);
+	-o-transform: scale(1.2,1.2);
+	transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+}
+
+.socialbtns .fa:hover:after {
+    content: attr(data-legend);
+    position: absolute;
+    font-size: small;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    transform: translateY(100%);
+}
+
+#portfolio .card {
+    cursor:pointer;
+}
+#portfolio .card:hover{
+    background-color:#000000;
+    border: 2px solid ;
+    transform: scale(1.05);
+    transition: all ease 500ms;
+}
