@@ -10,7 +10,7 @@ body{
     padding-left: 20px;
 }
 .bannerBgImage .zoom:hover{
-	transform: scale(1.0);
+	transform: scale(1.2);
         transition: all ease 500ms;
 }
 
@@ -19,7 +19,7 @@ body{
         transition: all ease 500ms;
 }
 .card-img a:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: all ease 500ms;
 }
 
