@@ -17,7 +17,7 @@ body{
 
 .bannerBgImage{
     height: 100vh;
-    background: url(/Images/breno-machado-in9-n0JwgZ0-unsplash.jpg);
+    background: url(./Images/breno-machado-in9-n0JwgZ0-unsplash.jpg);
     background-size: cover;
     position: relative;
 }
