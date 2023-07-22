@@ -14,7 +14,7 @@ body{
         transition: all ease 500ms;
 }
 
-.nav-item .zoom:hover{
+.navbar-nav .zoom:hover{
 	transform: scale(1.07);
         transition: all ease 500ms;
 }
