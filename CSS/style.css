@@ -14,6 +14,10 @@ body{
         transition: all ease 500ms;
 }
 
+.zoom2:hover{
+	transform: scale(1.06);
+        transition: all ease 500ms;
+}
 .card-img a:hover{
     transform: scale(1.1);
     transition: all ease 500ms;
