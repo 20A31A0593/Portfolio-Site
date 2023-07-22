@@ -19,7 +19,7 @@ body{
         transition: all ease 500ms;
 }
 .card-img a:hover{
-    transform: scale(1.2);
+    transform: scale(0.9);
     transition: all ease 500ms;
 }
 
