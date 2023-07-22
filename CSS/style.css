@@ -9,7 +9,7 @@ body{
     color: #fff;
     padding-left: 20px;
 }
-.bannerBgImage .zoom:hover{
+.bannerBgImage a:hover{
 	transform: scale(0.9);
         transition: all ease 500ms;
 }
