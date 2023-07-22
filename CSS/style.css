@@ -15,7 +15,7 @@ body{
 }
 
 .zoom:hover{
-	transform: scale(1.07);
+	transform: scale(1.1);
         transition: all ease 500ms;
 }
 .card-img a:hover{
@@ -51,7 +51,7 @@ body{
     padding-left: 20px;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
-    background: url(Images/back.png);
+    background: url(./Images/back.png);
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
